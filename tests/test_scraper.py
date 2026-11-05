@@ -1,4 +1,4 @@
-"""Pruebas del scraper  con HTML de ejemplo (no usan internet). Ejecutar usando con: pytest"""
+"""Pruebas del scraper con HTML de ejemplo (no usan internet). Ejecutar usando: pytest"""
 
 
 
