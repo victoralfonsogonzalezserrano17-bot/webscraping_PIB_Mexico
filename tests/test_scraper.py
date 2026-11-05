@@ -1,4 +1,6 @@
-"""Pruebas del scraper con HTML de ejemplo (no usan internet). Ejecutar con: pytest"""
+"""Pruebas del scraper  con HTML de ejemplo (no usan internet). Ejecutar usando con: pytest"""
+
+
 
 import os
 import sys
