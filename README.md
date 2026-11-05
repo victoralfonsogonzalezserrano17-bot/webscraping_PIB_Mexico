@@ -1,7 +1,7 @@
 # Web Scraping de Información Económica y Visualización con Streamlit.
 
 ## 1. Resumen
-Este proyecto presenta una solución integral para la extracción automatizada, procesamiento y visualización interactiva de indicadores económicos clave de México. Utilizando bibliotecas de Python como `requests`, `BeautifulSoup` y `pandas`, el sistema recopila información financiera  directamente desde una tabla fija del ano 2022 (wikipedia). Los datos extraídos son procesados y presentados en un dashboard interactivo desarrollado con `Streamlit`. La arquitectura modular del repositorio asegura un flujo colaborativo y controlado mediante Git/GitHub, permitiendo la reproducibilidad del entorno de análisis.
+Este proyecto presenta una solución integral para la extracción automatizada, procesamiento y visualización interactiva de indicadores económicos clave de México. Utilizando bibliotecas de Python como `requests`, `BeautifulSoup` y `pandas`, el sistema recopila información financiera  directamente desde una tabla fija del ano 2022 (wikipedia). Los datos extraídos son procesados y presentados en un dashboard interactivo desarrollado con `Streamlit`. La arquitectura modular del repositorio asegura un flujo colaborativo y controlado mediante Git/GitHub, permitiendo la reproducibilidad del entorno de análisis
 
 
 # 2. Introducción
@@ -11,7 +11,7 @@ El acceso a consulta del PIB de nuestro país suele estar disperso en distintas 
 
 # 2.2. Objetivos
 
-* Objetivo General: Desarrollar un proceso automatizado de *web scraping* de información económica y presentar sus resultados mediante una interfaz web interactiva con Streamlit, respetando los términos de uso y restricciones técnicas del sitio consultado.
+* Objetivo General: Desarrollar un proceso automatizado de *web scraping* de información económica y presentar sus resultados mediante una interfaz web interactiva con Streamlit, respetando los términos de uso y restricciones técnicas del sitio que consultamos.
 * Objetivos Particulares:
   1. Diseñar un script de extracción que consulte el PIB de cada Estado de México .
   2. Limpiar, estructurar y transformar la información no estructurada extraída del HTML en DataFrames utilizables.
