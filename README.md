@@ -1,7 +1,7 @@
 # Web Scraping de Información Económica y Visualización con Streamlit.
 
 ## 1. Resumen
-Este proyecto presenta una solución integral para la extracción automatizada, procesamiento y visualización interactiva de indicadores económicos clave de México. Utilizando bibliotecas de Python como `requests`, `BeautifulSoup` y `pandas`, el sistema recopila información financiera  directamente desde una tabla fija del ano 2022 (wikipedia). Los datos extraídos son procesados y presentados en un dashboard interactivo desarrollado con `Streamlit`. La arquitectura modular del repositorio asegura un flujo colaborativo y controlado mediante Git/GitHub, permitiendo la reproducibilidad del entorno de análisis
+Este proyecto presenta una solución integral para la extracción automatizada, procesamiento y visualización interactiva de indicadores económicos clave de México. Utilizando bibliotecas de Python como `requests`, `BeautifulSoup` y `pandas`, el sistema recopila información financiera  directamente desde una tabla fija del año 2022 (wikipedia). Los datos extraídos son procesados y presentados en un dashboard interactivo desarrollado con `Streamlit`. La arquitectura modular del repositorio asegura un flujo colaborativo y controlado mediante Git/GitHub, permitiendo la reproducibilidad del entorno de análisis
 
 
 # 2. Introducción
@@ -34,11 +34,11 @@ Almacena localmente los datos ya procesados. Sirve para que la app arranque sin 
 Lista las dependencias del proyecto con versiones mínimas: streamlit, requests, beautifulsoup4, pandas y pytest.
 
 # 3.2. decisiones tecnicas
- Wikipedia Es una fuente pública, accesible y con una tabla ya consolidada del PIB por estado. Además, su contenido se publica bajo licencia CC BY-SA 4.0, lo que permite reutilizarloo citando la fuente (la app muestra la liga en la parte superior).
+Wikipedia es una fuente pública, accesible y con una tabla ya consolidada del PIB por estado. Además, su contenido se publica bajo licencia CC BY-SA 4.0, lo que permite reutilizarlo citando la fuente (la app muestra la liga en la parte superior).
 
-guardar en CSV en vez de descargar cada vez se usa Para no golpear el sitio con peticiones repetidas , para que la app funcione incluso sin internet una vez cargados los datos y para conservar una instantánea verificable de lo que se analizó.
+Guardar en CSV en vez de descargar cada vez se usa para no golpear el sitio con peticiones repetidas , para que la app funcione incluso sin internet una vez cargados los datos y para conservar una instantánea verificable de lo que se analizó.
 
-evitar abusar del sitio Se hace una sola petición por ejecución (solo al pulsar el botón de actualizar)
+Evitar abusar del sitio, se hace una sola petición por ejecución (solo al pulsar el botón de actualizar).|
 
 # 3.3. Evidencias
 
@@ -66,9 +66,9 @@ Solo se muestra un año, no una serie de tiempo, por lo que no permite análisis
 Se probó con una sola fuente (Wikipedia en inglés); no se contrastó con INEGI u otra fuente oficial.
 
 # 4 conclusiones
- El aprendizaje principal fue que la parte difícil del scraping no es descargar la página, sino limpiar y validar los datos: elegir la tabla correcta, descartar totales y manejar formatos como $27,023, +1.88% o el menos unicode. También se aprendió a separar el código en módulos y a escribir pruebas que no dependan de internet.
+El aprendizaje principal fue que la parte difícil del scraping no es descargar la página, sino limpiar y validar los datos: elegir la tabla correcta, descartar totales y manejar formatos como $27,023, +1.88% o el menos unicode. También se aprendió a separar el código en módulos y a escribir pruebas que no dependan de internet.
 
-Script de extracción del PIB por estado: echo en en scraper.py con descargar_html() y extraer_tabla_pib(); evidencia: pruebass test_extrae_la_tabla_correcta_y_omite_totales.
+Script de extracción del PIB por estado: echo en en scraper.py con descargar_html() y extraer_tabla_pib(); evidencia: pruebas test_extrae_la_tabla_correcta_y_omite_totales.
 
 Limpieza y estructuracion en DataFrames: implementado en limpiar_numero() y en la construccion del DataFrame con COLUMNAS; evidencia: test_los_valores_numericos_se_limpian.
 
