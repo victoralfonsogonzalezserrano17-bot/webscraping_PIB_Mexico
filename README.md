@@ -54,7 +54,7 @@ evitar abusar del sitio Se hace una sola petición por ejecución (solo al pulsa
 
 *Demuestra que la lógica de extracción, limpieza y validación funciona correctamente sin depender de una conexión a internet.*
 
-**Repositorio de GitHub:** [Liga al repositorio](https://github.com/tu-usuario/tu-repositorio)
+**Liga al repositorio:** https://github.com/victoralfonsogonzalezserrano17-bot/webscraping_PIB_Mexico
 
 # 3.3. Evidencias
 Los datos corresponden a 2022 y no se actualizan solos: hay que pulsar el botón de scraping para refrescarlos.
