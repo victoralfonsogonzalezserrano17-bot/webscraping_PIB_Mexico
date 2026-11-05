@@ -46,11 +46,11 @@ evitar abusar del sitio Se hace una sola petición por ejecución (solo al pulsa
 
 *Demuestra que la interfaz carga el CSV y muestra los indicadores correctamente.*
 
-![Gráfica de barras por indicador](capturas/02_grafica.png)
+![Gráfica de barras por indicador](capturas/02_pruebas.png)
 
 *Demuestra la visualización interactiva de los datos según el indicador seleccionado y el orden elegido por el usuario.*
 
-![Pruebas unitarias pasando](capturas/03_pytest.png)
+![Pruebas unitarias pasando](capturas/03_pruebas.png)
 
 *Demuestra que la lógica de extracción, limpieza y validación funciona correctamente sin depender de una conexión a internet.*
 
@@ -87,8 +87,8 @@ Para probar este proyecto desde cero, sigue estos pasos.
 **Paso a paso:**
 
 1. **Obtener el proyecto:** Clona este repositorio o descarga el código y descomprímelo en una carpeta.
-   git clone <AQUÍ_VA_TU_LIGA_DE_GITHUB>
-   cd <NOMBRE_DE_LA_CARPETA>
+ git clone <https://github.com/victoralfonsogonzalezserrano17-bot/webscraping_PIB_Mexico>
+cd <webcraping>
 Crear y activar un entorno virtual (muy recomendado para no mezclar las librerías con las de tu computadora):
 
 En Windows:
