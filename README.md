@@ -1,4 +1,4 @@
-# Web Scraping de Información Económica y Visualización con Streamlit
+# Web Scraping de Información Económica y Visualización con Streamlit.
 
 ## 1. Resumen
 Este proyecto presenta una solución integral para la extracción automatizada, procesamiento y visualización interactiva de indicadores económicos clave de México. Utilizando bibliotecas de Python como `requests`, `BeautifulSoup` y `pandas`, el sistema recopila información financiera  directamente desde una tabla fija del ano 2022 (wikipedia). Los datos extraídos son procesados y presentados en un dashboard interactivo desarrollado con `Streamlit`. La arquitectura modular del repositorio asegura un flujo colaborativo y controlado mediante Git/GitHub, permitiendo la reproducibilidad del entorno de análisis.
